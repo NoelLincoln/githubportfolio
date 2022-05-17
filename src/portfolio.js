@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs, Spring Boot and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/12mEwjQ5ZQjQFE62_JF4o46aKrKOllIJ7", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -116,7 +116,7 @@ const educationInfo = {
       duration: "September 2014 - October 2019",
       desc: "I built an expert system for diagnosing poultry diseases",
       descBullets: [
-        "Primarily made with php and Jess(inference engine) via a java extension"
+        "Primarily made with php,prolog and Jess(inference engine) via a java extension"
       ]
     },
   
@@ -223,23 +223,12 @@ const bigProjects = {
       projectDesc: "An e-commerce website made with Spring Boot, thymeleaf, JQuery and Mysql",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://facelift.co.ke/"
+          name: "In progress"
+          // url: "https://facelift.co.ke/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -299,7 +288,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -323,7 +312,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
